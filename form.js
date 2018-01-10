@@ -16,7 +16,7 @@ for (i = 0; i < e.response.getItemResponses().length; i++) {
 }
 
 var data = {
-        "content": '<I added a role mention here to get attention of a specific group of ppl>',
+        "content": 'A new form has been submitted!',  //change this line if you so wish
         "embeds": [{
             "title": "**New form submission** — " + (e.source.getTitle() != null && e.source.getTitle().length > 0 ? e.source.getTitle() : "Untitled Form"),
             "type": "rich",
